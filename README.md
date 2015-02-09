@@ -4,6 +4,8 @@ A multi-purpose animation block helper. Check out the [live demo](http://ccorcos
 
 ## Getting Started
 
+    meteor add ccorcos:animate
+
 The API is very similar to the [ccorcos:transitioner](https://github.com/ccorcos/meteor-transitioner) package. Basically just wrap whatever you want to animate with the animate block helper:
 
     {{#animate class="whatever classes you want"
