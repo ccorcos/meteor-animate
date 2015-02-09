@@ -1,0 +1,20 @@
+.click {
+  background-color: blue;
+  color: white;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  line-height: 200px;
+  text-align: center;
+}
+
+.show {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  line-height: 200px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 14px;
+}

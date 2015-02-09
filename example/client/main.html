@@ -1,0 +1,14 @@
+<body>
+  {{>main}}
+</body>
+
+<template name="main">
+  <div class="main">
+    <div class="click">click here!</div>
+    {{#animate in='transition.shrinkIn' out='transition.shrinkOut'}}
+      {{#if show}}
+        <div class="show">Hey dude!</div>
+      {{/if}}
+    {{/animate}}
+  </div>
+</template>
